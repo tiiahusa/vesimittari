@@ -10,8 +10,8 @@ var bodyParser = require("body-parser")
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
 
-// Asetetaan http porttiarvo muuttujaan http_port
-var HTTP_PORT = 8000
+// Haetaan Herokulta porttinumero
+var HTTP_PORT = process.env.PORT || 8080
 
 // Käynnistetään serveri
 app.listen(HTTP_PORT, () =>{
