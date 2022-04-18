@@ -1,0 +1,19 @@
+{
+  "name": "oppitunti5",
+  "version": "1.0.0",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node oma_ohjelma_javalla.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node":"17.4.0"
+  }
+
+}
