@@ -10,10 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.17.3",
     "sqlite3": "^5.0.2"
   },
   "engines": {
-    "node":"17.4.0"
+    "node": "17.4.0"
   }
-
 }
